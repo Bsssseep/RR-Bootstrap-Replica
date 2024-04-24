@@ -1,9 +1,14 @@
 import './App.css';
+import TopBar from './components/TopBar';
+import StoreListing from './components/StoreListing';
+import Location from './components/Location';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Location />
+      <StoreListing />
     </div>
   );
 }
